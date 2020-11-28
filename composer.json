@@ -1,0 +1,39 @@
+{
+    "name": "nggiahao/rake-php",
+    "description": "PHP implementation of Rapid Automatic Keyword Exraction algorithm (RAKE)",
+    "keywords": [
+        "nggiahao",
+        "rake-php"
+    ],
+    "homepage": "https://github.com/nggiahao/rake-php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nguyen Gia Hao",
+            "email": "giahao9899@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nggiahao\\RakePhp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nggiahao\\RakePhp\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
