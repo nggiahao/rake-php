@@ -2,6 +2,10 @@
 
 All notable changes to `rake-php` will be documented in this file
 
-## 1.0.0 - 201X-XX-XX
+## 0.1 - 2020-11-30
 
-- initial release
+- Beta 0.1:
+    - Extract `sentences`, `keywords`, `words`
+    - Use Rapid Automatic Keyword Exraction algorithm to get score keyword
+    - Support English and Spanish
+
