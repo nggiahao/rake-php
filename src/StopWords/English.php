@@ -163,7 +163,6 @@ class English extends StopWordsAbstract
         'less',
         'ltd',
         'made',
-        'many',
         'may',
         'me',
         'meanwhile',

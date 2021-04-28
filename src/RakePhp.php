@@ -155,8 +155,6 @@ class RakePhp
                     $i = trim($this->normalize($i));
                     if (empty($i)) {
                         continue;
-                    } elseif (in_array($i, $result)) {
-                        continue;
                     } else {
                         $result[] = $i;
                     }
